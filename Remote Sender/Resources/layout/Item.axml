@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?android:attr/selectableItemBackground">
+    <refractored.controls.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/DeviceIcon"
+        android:minHeight="40dp"
+        android:minWidth="40dp"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        app:civ_border_color="#000000"
+        android:cropToPadding="true" />
+    <RelativeLayout
+        android:layout_width="211.0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="Device Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/DeviceName"
+            android:textColor="@color/material_blue_grey_900"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="IP Address"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/IP_Address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp" />
+    </RelativeLayout>
+    <refractored.controls.CircleImageView
+        android:id="@+id/RenameButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="170dp"
+        android:cropToPadding="true" />
+</LinearLayout>

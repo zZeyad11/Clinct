@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Scan"
+        android:title="Scan"
+        android:icon="@drawable/Scan"
+        />
+    <!--
+  <item
+        android:id="@+id/Live"
+        android:icon="@drawable/Live"
+        android:title="Live" />
+    -->
+    <item
+        android:id="@+id/Tools"
+        android:icon="@drawable/Tools"
+        android:title="Tools" />
+    <item
+       android:id="@+id/Processes"
+       android:icon="@drawable/Process"
+       android:title="Processes" />
+  </group>
+<!--
+<item android:title="Preference">  
+            <menu>  
+                <item android:id="@+id/Settings" android:icon="@drawable/settings" android:title="Settings" />  
+        </menu>  
+        </item>
+  -->
+  
+</menu>
